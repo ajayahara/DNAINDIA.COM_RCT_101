@@ -1,0 +1,32 @@
+.button {
+  background-color: #1c1c1c;
+  color: gray;
+  text-transform: uppercase;
+}
+.button > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10%;
+  padding: 10px;
+  height: 10vh;
+}
+.button > div > div:last-child {
+  width: 80%;
+  display: flex;
+  gap: 3%;
+}
+
+.button hr {
+  width: 98%;
+  margin: auto;
+  background-color: gray;
+}
+.button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+}
+.buttonImage {
+  height: 100%;
+}
